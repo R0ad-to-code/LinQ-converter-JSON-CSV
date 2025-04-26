@@ -1,0 +1,40 @@
+{
+  "Fruits": [
+    {
+      "Name": "Pomme",
+      "Color": "Rouge",
+      "Season": "Automne",
+      "Continent": "Europe",
+      "Taste": "Sucré"
+    },
+    {
+      "Name": "Fraise",
+      "Color": "Rouge",
+      "Season": "Printemps",
+      "Continent": "Asie",
+      "Taste": "Sucré"
+    },
+    {
+      "Name": "Cerise",
+      "Color": "Rouge",
+      "Season": "Printemps",
+      "Continent": "Europe",
+      "Taste": "Sucré"
+    },
+    {
+      "Name": "Framboise",
+      "Color": "Rouge",
+      "Season": "Été",
+      "Continent": "Europe",
+      "Taste": "Aigre"
+    },
+    {
+      "Name": "Grenade",
+      "Color": "Rouge",
+      "Season": "Automne",
+      "Continent": "Asie",
+      "Taste": "Sucré"
+    }
+  ],
+  "IsModified": true
+}

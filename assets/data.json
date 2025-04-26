@@ -1,0 +1,144 @@
+{
+    "AllFruits": [
+        {
+        "name": "Pomme",
+        "color": "Rouge",
+        "season": "Automne",
+        "continent": "Europe",
+        "taste": "Sucré"
+        },
+        {
+        "name": "Banane",
+        "color": "Jaune",
+        "season": "Toute l'année",
+        "continent": "Amérique du Sud",
+        "taste": "Sucré"
+        },
+        {
+        "name": "Orange",
+        "color": "Orange",
+        "season": "Hiver",
+        "continent": "Amérique du Nord",
+        "taste": "Acide"
+        },
+        {
+        "name": "Fraise",
+        "color": "Rouge",
+        "season": "Printemps",
+        "continent": "Asie",
+        "taste": "Sucré"
+        },
+        {
+        "name": "Ananas",
+        "color": "Marron",
+        "season": "Été",
+        "continent": "Océanie",
+        "taste": "Acide"
+        },
+        {
+        "name": "Mangue",
+        "color": "Orange",
+        "season": "Été",
+        "continent": "Asie",
+        "taste": "Sucré"
+        },
+        {
+        "name": "Raisin",
+        "color": "Violet",
+        "season": "Automne",
+        "continent": "Europe",
+        "taste": "Sucré"
+        },
+        {
+        "name": "Pastèque",
+        "color": "Vert",
+        "season": "Été",
+        "continent": "Afrique",
+        "taste": "Sucré"
+        },
+        {
+        "name": "Pêche",
+        "color": "Rose",
+        "season": "Été",
+        "continent": "Amérique du Nord",
+        "taste": "Sucré"
+        },
+        {
+        "name": "Cerise",
+        "color": "Rouge",
+        "season": "Printemps",
+        "continent": "Europe",
+        "taste": "Sucré"
+        },
+        {
+        "name": "Kiwi",
+        "color": "Marron",
+        "season": "Hiver",
+        "continent": "Océanie",
+        "taste": "Aigre"
+        },
+        {
+        "name": "Papaye",
+        "color": "Orange",
+        "season": "Toute l'année",
+        "continent": "Amérique du Sud",
+        "taste": "Sucré"
+        },
+        {
+        "name": "Myrtille",
+        "color": "Bleu",
+        "season": "Été",
+        "continent": "Amérique du Nord",
+        "taste": "Sucré"
+        },
+        {
+        "name": "Framboise",
+        "color": "Rouge",
+        "season": "Été",
+        "continent": "Europe",
+        "taste": "Aigre"
+        },
+        {
+        "name": "Figue",
+        "color": "Violet",
+        "season": "Automne",
+        "continent": "Asie",
+        "taste": "Sucré"
+        },
+        {
+        "name": "Goyave",
+        "color": "Vert",
+        "season": "Toute l'année",
+        "continent": "Asie",
+        "taste": "Sucré"
+        },
+        {
+        "name": "Citron",
+        "color": "Jaune",
+        "season": "Hiver",
+        "continent": "Afrique",
+        "taste": "Aigre"
+        },
+        {
+        "name": "Grenade",
+        "color": "Rouge",
+        "season": "Automne",
+        "continent": "Asie",
+        "taste": "Sucré"
+        },
+        {
+        "name": "Noix de coco",
+        "color": "Marron",
+        "season": "Toute l'année",
+        "continent": "Océanie",
+        "taste": "Sucré"
+        },
+        {
+        "name": "Prune",
+        "color": "Violet",
+        "season": "Été",
+        "continent": "Europe",
+        "taste": "Sucré"
+        }
+    ]
+}
