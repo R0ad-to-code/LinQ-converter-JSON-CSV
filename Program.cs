@@ -38,7 +38,7 @@ while (Console.ReadLine()?.ToUpper() == "O")
     PrintList(fruitsListToExport); 
     Console.WriteLine("Souhaitez-vous modifier l'affichage des données avant de les exporter ? (O/N)");
 }  
-ExportJSONFruitList(fruitsListToExport, Directory.GetCurrentDirectory() + "/assets/modified_data.json");
+ExportCSVFruitList(fruitsListToExport, Directory.GetCurrentDirectory() + "/assets/modified_data.csv");
 
 
 // Methode pour spécifier quelle modification sur la liste
@@ -161,9 +161,15 @@ static FruitList ResetList(FruitList originalFruits, FruitList modifiedFruits)
     return modifiedFruits;
 }
 
-static void ExportJSONFruitList(FruitList fruits, string filePath) 
+static void ExportCSVFruitList(FruitList fruits, string filePath) 
 {
-    var json = Newtonsoft.Json.JsonConvert.SerializeObject(fruits, Newtonsoft.Json.Formatting.Indented);
-    File.WriteAllText(filePath, json);
-    Console.WriteLine($"Votre liste de fruits a été exportée dans le fichier {filePath}.");
+    using (var writer = new StreamWriter(filePath))
+    {
+        writer.WriteLine("Name,Color,Season,Continent,Taste");
+        foreach (var fruit in fruits.Fruits)
+        {
+            writer.WriteLine($"{fruit.Name},{fruit.Color},{fruit.Season},{fruit.Continent},{fruit.Taste}");
+        }
+    }
+    Console.WriteLine("Liste de fruits exportée au format CSV avec succès !");
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LinQ-converter-JSON-CSV")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d82b35420ea697165d31c1d3f790d06489d2c9f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+940572e24946d8b019954e854f67f5790fb216a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("LinQ-converter-JSON-CSV")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LinQ-converter-JSON-CSV")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
